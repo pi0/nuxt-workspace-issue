@@ -1173,6 +1173,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"app@workspace:packages/app":
+  version: 0.0.0-use.local
+  resolution: "app@workspace:packages/app"
+  dependencies:
+    nuxt: 3.0.0-rc.7
+    uuid: ^8.3.2
+  languageName: unknown
+  linkType: soft
+
 "aproba@npm:^1.0.3 || ^2.0.0":
   version: 2.0.0
   resolution: "aproba@npm:2.0.0"
@@ -3538,15 +3547,6 @@ __metadata:
   checksum: 26bf6c5480dda5161c820c5b5c751ae1e766c587b1f951ea3fcfc973bafb7831ae5b54a31a69bd670220e42e99ec154475025a468eae58ea262f813fdc8d1c62
   languageName: node
   linkType: hard
-
-"issue@workspace:packages/issue":
-  version: 0.0.0-use.local
-  resolution: "issue@workspace:packages/issue"
-  dependencies:
-    nuxt: 3.0.0-rc.7
-    uuid: ^8.3.2
-  languageName: unknown
-  linkType: soft
 
 "jest-worker@npm:^26.2.1":
   version: 26.6.2

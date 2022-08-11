@@ -1,10 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build ./packages/issue",
-    "dev": "nuxt dev ./packages/issue",
-    "generate": "nuxt generate ./packages/issue",
-    "preview": "nuxt preview ./packages/issue"
+    "app:dev": "yarn workspace app dev",
+    "app:build": "yarn workspace app build"
   },
   "workspaces": [
     "packages/**"
